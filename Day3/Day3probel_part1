@@ -1,0 +1,27 @@
+#Country Capitals  
+#Create a dictionary with country names as keys and their capitals as values. Write a program to take a country name as input and print its capital.
+
+# Dictionary of countries and their capitals
+list = {
+    "India": "New Delhi",
+    "USA": "Washington, D.C.",
+    "France": "Paris",
+    "Japan": "Tokyo",
+    "Germany": "Berlin"
+}
+
+# Take input from user
+print(list)
+country = input("Enter a country name from the list: ")
+
+# Check and print the capital
+if country in list:
+    print("The capital of", country, "is", list[country])
+else:
+    print("Sorry, country not found in the dictionary.")
+
+
+
+
+
+
