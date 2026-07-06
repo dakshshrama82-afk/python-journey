@@ -1,0 +1,49 @@
+#Country Capitals  
+#Create a dictionary with country names as keys and their capitals as values. Write a program to take a country name as input and print its capital.
+
+# Dictionary of countries and their capitals
+list = {
+    "India": "New Delhi",
+    "USA": "Washington, D.C.",
+    "France": "Paris",
+    "Japan": "Tokyo",
+    "Germany": "Berlin"
+}
+
+# Take input from user
+print(list)
+country = input("Enter a country name from the list: ")
+
+# Check and print the capital
+if country in list:
+    print("The capital of", country, "is", list[country])
+else:
+    print("Sorry, country not found in the dictionary.")
+
+# Problem 2: Student Marks Average
+# Store student names and their marks in a dictionary
+# and calculate the average marks of all students.
+students = {
+    "Alice": 85,
+    "Bob": 90,
+    "Charlie": 78,
+    "Diana": 92
+}
+
+# Calculate and print the average marks
+total_marks = sum(students.values())
+average_marks = total_marks / len(students)
+print("The average marks of all students is:", average_marks)
+
+#3 problem: take a input from user and give the vale of that person and if the person is not in the list then print "not found"
+user = input("enter the name")
+dic = {
+    "Arjun" : 25,
+    "Karan" : 35,
+    "Rohan" : 44,
+    "Sameer" : 55,
+}
+if user in dic[user]:
+    print("user age:",dic[user])
+else:
+    print("user not found")
