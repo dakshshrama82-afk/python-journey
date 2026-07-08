@@ -30,3 +30,15 @@ print(" Union :",A.union(B))
 print(" Intersection:",A.intersection(B))
 print("Difference:",A-B)
 print("Difference:",B-A)
+
+# Problem 3: Membership Test
+# Write a program that checks if a given element exists in a set.
+
+given_set = {
+    "red","green","black",
+}
+element = input("enter the element:")
+if element in given_set:
+    print("yes, present in the set")
+else:
+    print("do, not present")
