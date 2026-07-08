@@ -25,6 +25,14 @@ while i <= 100:
 
 #[1, 4, 9, 16, 25, 36, 49, 64, 81,100]
 
+given_list = [1, 4, 9, 16, 25, 36, 49, 64, 81,100]
+
+i = 1
+while i <= 10 :
+    print(i**2)
+    i += 1
+
 #5 Search for a number x in this tuple using loop:
 
 #[1 4 9 16 25, 36, 49, 64, 81,100]
+
