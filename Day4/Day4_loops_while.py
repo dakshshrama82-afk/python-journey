@@ -6,7 +6,8 @@ i = 1
 while i <= 100:
     print(i)
     i += 1
-
+    
+print("end of loop")
 #2 Print numbers from 100 to 1.
 
 print("ans 2:")
@@ -15,6 +16,7 @@ while i >= 1:
     print(i)
     i -= 1
 
+print("end of loop")
 #3 Print the multiplication table of a number n.
 
 print("ans 3:")
@@ -23,6 +25,7 @@ while i<=10:
     print(17*i)
     i += 1
     
+print("end of loop")
 
 #4 Print the elements of the following list using a loop:
 
@@ -36,6 +39,7 @@ while i <= 10 :
     print(i**2)
     i += 1
 
+print("end of loop")
 #5 Search for a number x in this tuple using loop:
 
 #[1 4 9 16 25, 36, 49, 64, 81,100]
@@ -48,7 +52,10 @@ i = 0
 while i < len(number):
     if x == number[i]:
         print("found at index:",i)
+        break
     elif number[i] != x:
         print("not,found",i)
     i += 1
+
+print("end of loop")
     
