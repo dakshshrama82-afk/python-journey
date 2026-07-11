@@ -28,4 +28,22 @@ else:
     print("do not exist")
     print("END OF LOOP")
 
+# using for & range()
 
+# 3.Print numbers from 1 to 100.
+
+for i in range(1,101):
+    print(i)
+print("end of loop")
+
+
+# 4.Print numbers from 100 to 1.
+
+for i in range(100, 0, -1):
+    print(i)
+print("end of loop")
+
+# 5.Print the multiplication table of a number n.
+for i in range(2,21,2):
+    print(i)
+print("end of loop")
