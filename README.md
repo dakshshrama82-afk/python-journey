@@ -16,7 +16,7 @@ This repository documents my progress step by step.
   - **[Part 1: While loops](Day4-While.md)**  
   - **[Part 2: For loops](Day4-For.md)**  
 - **Day 5:** Practice all topics learned so far  
-
+  - **[Day 5](Day5.md):**`Word & Text Analyzer`problems
 ---
 
 ## 🚀 Goal
