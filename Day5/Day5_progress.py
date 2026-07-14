@@ -8,7 +8,17 @@ while True:
     elif collection == "done":
         break
 
-world_list = []
+singel_word = []
+punctuation = ["!","@","#","$",",","?","."]
 for word_str in sentence_list:
-    world_list.extend(word_str.split())
-print(world_list)
+        i = 0
+        while i < len(punctuation):
+         item = punctuation[i]
+         word_str = word_str.replace(item,"")
+         i += 1
+        singel_word.extend(word_str.split())
+
+word_dic = {}
+for word in singel_word:
+    if word in word_dic:
+        
