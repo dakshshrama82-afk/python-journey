@@ -1,4 +1,4 @@
-with open("hie.txt","a") as f:
+with open("hi.txt","a") as f:
     data1 = f.write("hi i am thr king")
     print(data1)
 
