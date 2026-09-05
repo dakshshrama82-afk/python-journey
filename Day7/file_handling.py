@@ -2,13 +2,13 @@ with open("hi.txt","a") as f:
     data1 = f.write("hi i am thr king")
     print(data1)
 
-# r+ mode
+# r+ mode it's first read then write 
 with open("demo.txt","r+") as f:
     data3 = f.read()
     data3 = f.write("hi its me")
     print(data3)
 
-# w+ mode
+# w+ mode it's write first then read
 with open("demo.txt","w+") as f:
     data4 = f.write("hi")
     data4 = f.read()
@@ -17,7 +17,7 @@ with open("demo.txt","w+") as f:
 
 
 
-# a+ mode 
+# a+ mode it write first but do not remove the existing data then read
 with open("demo.txt","a+") as f:
     data5 = f.write("\nhi it is again me")
     data5 = f.read()
