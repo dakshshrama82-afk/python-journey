@@ -16,10 +16,14 @@ This repository documents my progress step by step.
   - **[Part 1: While loops](Day4-While.md)**  
   - **[Part 2: For loops](Day4-For.md)**  
 - **Day 5:** Practice all topics learned so far  
-  * [Day 5 Progress](Day5/Day5_progress.py): Work-in-progress solution
+  * [Day 5 Progress](Day5/Day5_progress.py): Work-in-progress solution  
+- **[Day 6](Day6.md):** Functions practice – return keyword, square & cube, largest number in a list  
+- **[Day 7](Day7.md):** File handling modes (`a`, `r+`, `w+`, `a+`)  
+
 ---
 
 ## 🚀 Goal
 - Build strong fundamentals in Python through daily practice  
 - Progressively cover all basic topics before moving to bigger projects  
 - Maintain consistent GitHub activity to track learning journey  
+
